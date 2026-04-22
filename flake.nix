@@ -11,15 +11,15 @@
     {
       templates = {
         python = {
-          path = "./python";
+          path = ./templates/python;
           description = "Python dev shell";
         };
         c = {
-          path = "./c";
+          path = ./templates/c;
           description = "The C language dev shell";
         };
         javascript = {
-          path = "./javascript";
+          path = ./templates/javascript;
           description = "Javascript dev shell";
         };
       };

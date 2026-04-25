@@ -10,6 +10,10 @@
     { self, ... }@inputs:
     {
       templates = {
+        universal = {
+          path = ./templates/universal;
+          description = "Universal dev shell";
+        };
         python = {
           path = ./templates/python;
           description = "Python dev shell";

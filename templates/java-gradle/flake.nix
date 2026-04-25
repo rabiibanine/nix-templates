@@ -2,7 +2,12 @@
   description = "Java Gradle Development Environment";
 
   inputs = {
+<<<<<<< HEAD
     nixpkgs.url = "github:nixos/nixpkgs/b12141ef619e0a9c1c84dc8c684040326f27cdcc";
+=======
+    nixpkgs.url = "github:nixos/nixpkgs/b12141ef619e0a9c1c84dc8c684040326f27cdcc
+";
+>>>>>>> 1ab6deb (--amend)
   };
 
   outputs =

@@ -13,7 +13,7 @@
     in
     {
       devShells.${system}.default = pkgs.mkShell {
-        buildInputs = with pkgs; [
+        packages = with pkgs; [
           jdk21
           gradle
         ];

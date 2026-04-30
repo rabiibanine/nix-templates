@@ -18,6 +18,11 @@
         packages = with pkgs; [
           python313
         ];
+
+        shellHook = ''
+          echo "🐍 Python Dev Environment Loaded"
+        '';
+
       };
     };
 

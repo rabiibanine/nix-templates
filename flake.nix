@@ -46,6 +46,11 @@
           description = "Java-maven dev shell";
         };
 
+        nodejs24 = {
+          path = ./templates/nodejs24;
+          description = "NodeJs dev shell";
+        };
+
       };
     };
 

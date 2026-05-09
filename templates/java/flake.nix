@@ -1,5 +1,5 @@
 {
-  description = "Java Gradle Development Environment";
+  description = "Java Development Environment";
 
   inputs = {
     nixpkgs = {

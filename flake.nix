@@ -31,6 +31,11 @@
           description = "Javascript dev shell";
         };
 
+        typescript = {
+          path = ./templates/typescript;
+          description = "Typescript dev shell";
+        };
+
         java = {
           path = ./templates/java;
           description = "Java dev shell";
